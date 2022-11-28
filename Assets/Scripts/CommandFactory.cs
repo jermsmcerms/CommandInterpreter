@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class CommandFactory {
     public static ICommand CreateCommand(InputType input) {
         return input switch {

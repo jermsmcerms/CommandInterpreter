@@ -1,23 +1,17 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Windows;
 
 public class CommandInterpreter {
     private readonly CompositeCommand m_compositeCommands;
     private readonly Dictionary<InputType, ICommand> m_commands;
-    private readonly List<InputType> m_attackInputs;
 
     public CommandInterpreter(Dictionary<InputType, ICommand> commands) {
         m_commands = commands;
         m_compositeCommands = new CompositeCommand();
-        m_attackInputs = new List<InputType>();
     }
 
     public void ExcecuteCommands(Actor actor) {
         m_compositeCommands.Execute(actor);
-        m_attackInputs.Clear();
     }
 
     public void ComposeCommands(InputType currentInput) {
