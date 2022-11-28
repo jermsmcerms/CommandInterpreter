@@ -30,3 +30,7 @@ durring certain actor actions and allowing for buffered input that
 allows for special motion inputs found in classic fighting games
 such as Street Fighter. Although, I will not be adding that code here.
 I will let you try and figure that out for yourself :)
+
+P.S: This base line project will not scale for certian games as is. For example,
+The ComposeCommand function will may not produce the input you expect with the current
+algorithm and limited scope of commands.
