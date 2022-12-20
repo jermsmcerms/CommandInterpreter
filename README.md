@@ -36,4 +36,4 @@ the ComposeCommand function may not produce the input you expect with the curren
 algorithm and limited scope of commands. This is due to the way I am extracting simultanious
 inputs. The algorithm here works for the limited inputs, but a more presice function
 will be needed if you use a larger set of acceptable inputs. I have fixed this in my own
-work. So, I'll you find your own way doing so ;)
+work. So, I'll let you find your own way doing so ;)
