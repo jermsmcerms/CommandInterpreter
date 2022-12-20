@@ -32,5 +32,8 @@ such as Street Fighter. Although, I will not be adding that code here.
 I will let you try and figure that out for yourself :)
 
 P.S: This base line project will not scale for certian games as is. For example,
-the ComposeCommand function will may not produce the input you expect with the current
-algorithm and limited scope of commands.
+the ComposeCommand function will may produce the input you expect with the current
+algorithm and limited scope of commands. This is due to the way I am extracting simultanious
+inputs. The algorithm here works for the limited inputs, but a more presice function
+will be needed if you use a larger set of acceptable inputs. I have fixed this in my own
+work. So, I'll you find your own way doing so ;)
