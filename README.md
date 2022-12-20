@@ -1,5 +1,5 @@
 # CommandInterpreter
-A fixed timestep based command interpreter
+A fixed timestep based command interpreter.
 Inputs are read into a circular buffer and then translated into
 commands that are defined by SerializableObject scripts and
 instantiated via an object factory.
